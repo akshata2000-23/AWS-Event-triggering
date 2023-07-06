@@ -14,7 +14,7 @@ aws_region="ap-south-1"
 bucket_name="akshata-bucket-2673848"
 lambda_func_name="s3-event-trigger"
 role_name="s3-lambda-sns"
-email_address="shrutika1888@gmail.com"
+email_address="your_email@gmail.com"
 
 # Create IAM Role for the project
 role_response=$(aws iam create-role --role-name s3-lambda-sns --assume-role-policy-document '{
